@@ -18,6 +18,11 @@ public class Client {
 		stu.cheating();
 		
 		
+		AnotherStudent anoStu = context.getBean("anotherStu",AnotherStudent.class);
+		
+		anoStu.cheating();
+		
+		
 		((ClassPathXmlApplicationContext) context).close();
 		
 		
